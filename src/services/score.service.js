@@ -1,15 +1,15 @@
 const Score = require('../models/score.model');
 const User = require('../models/user.model');
 const QuestionService = require('./question.service');
-const calculateHitPercetage = require('../utils/calculateHitPercetage');
+const calculateHitPercentage = require('../utils/calculateHitPercentage');
 
 class ScoreService {
   async calculatePoints(answer, questionnaireId) {
     const questions = await QuestionService.getQuestions(questionnaireId);
 
-    const hitPercetage = calculateHitPercetage(answer, questions);
+    const hitPercentage = calculateHitPercentage(answer, questions);
 
-    return parseInt(hitPercetage);
+    return parseInt(hitPercentage);
   }
 
   async createScore(points, userId) {

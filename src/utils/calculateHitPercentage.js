@@ -34,7 +34,7 @@ function totalCorrectQuestions(questions){
   return correctQuestions.length;
 }
 
-function calculateHitPercetage(answer, questions) {
+function calculateHitPercentage(answer, questions) {
   const { correctAnswers, hasWrongAnswer } = checkAnswers(answer, questions);
   const correctQuestions = totalCorrectQuestions(questions);
 
@@ -46,4 +46,4 @@ function calculateHitPercetage(answer, questions) {
   return hitPercentage;
 }
 
-module.exports = calculateHitPercetage;
+module.exports = calculateHitPercentage;
