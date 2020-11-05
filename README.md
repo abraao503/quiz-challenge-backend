@@ -20,15 +20,15 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## :computer: Sobre o projeto
 
-### Esquema do Banco
-![Schema](https://user-images.githubusercontent.com/51488383/98297731-3b419100-1f8b-11eb-97c8-6aaffc7dd8cb.png)
-
 Backend de um pequeno LMS. para simplificar, estarei chamando ele de quiz. O Frontend da aplicação pode ser encontrado [aqui](https://github.com/abraao503/quiz-challenge-frontend).    
 Em resumo esse backend realiza três principais funçoes (uma por tela):  
 
 1. Cadastrar um novo usuário
 2. Ao receber uma resposta do usuário, calcular o total de pontos
 3. Listar as respostas de todos os usuários
+
+### Esquema do Banco
+![Schema](https://user-images.githubusercontent.com/51488383/98297731-3b419100-1f8b-11eb-97c8-6aaffc7dd8cb.png)
 
 ## :information_source: Como rodar a aplicação
 
